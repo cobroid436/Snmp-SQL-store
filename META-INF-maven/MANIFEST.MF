@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Built-By: Администратор
+Created-By: Apache Maven 3.3.9
+Build-Jdk: 1.8.0_121
+Class-Path: lib\dom4j-1.1.jar lib\poi-3.12.jar lib\poi-ooxml-3.12.jar lib\poi-ooxml-schemas-3.12.jar lib\snmp4j-2.5.0.jar lib\swingx-1.6.jar lib\mssql-jdbc-6.1.0.jre8.jar lib\xmlbeans-2.6.0.jar lib\xbean-reflect-3.4.jar
+Main-Class: SNMPExelToSQL.HelloSNMPExcelToSQL
+

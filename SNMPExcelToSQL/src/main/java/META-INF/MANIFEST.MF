@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Class-Path: lib\poi-3.10-FINAL-20140208.jar lib\poi-ooxml-schemas-3.10-FINAL-2
+ 0140208.jar lib\snmp4j-2.3.1.jar lib\swingx-0.9.4.jar lib\poi-ooxml-3.10-FINAL-20
+ 140208.jar lib\sqljdbc4.jar
+Main-Class: SNMPExcelToSQL.HelloSNMPExcelToSQL
+
