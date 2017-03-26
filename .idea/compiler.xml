@@ -15,9 +15,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="Excelkazmod" target="1.5" />
-      <module name="SNMPExcelToSQL" target="1.5" />
-      <module name="SNMPExelToSQL" target="1.5" />
+      <module name="SNMPExcelToSQL" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

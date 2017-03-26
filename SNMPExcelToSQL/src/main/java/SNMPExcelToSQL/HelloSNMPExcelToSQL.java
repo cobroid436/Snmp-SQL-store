@@ -341,8 +341,8 @@ public class HelloSNMPExcelToSQL extends JPanel {
         print (args);
         VecArgsNum = new Vector<Integer>(0);
         {// блок проверки исходных данных
-            System.out.println("Требуется два аргумента путь таблице, sql сервер с .lsr.ru порт по умолчанию 1433");
-            System.out.println("Требуется databaseName=parserResult;user=snmp;password=145236");
+            System.out.println("Требуется два аргумента путь таблице, sql сервер порт по умолчанию 1433");
+            System.out.println("Требуется databaseName=parserResult;user=snmp;password=password");
             System.out.println("Скрирт для создания таблицы прилагается parsingDoneGeneratedScriptTable.sql");
             if (args.length != 2) {
                 //Ошибка неправильное количество аргументов
@@ -354,7 +354,7 @@ public class HelloSNMPExcelToSQL extends JPanel {
             System.out.println("Преобразование массива строк в переменные окружения");
             fileSourceXLSX=args[0];
             connectionUrl="jdbc:sqlserver://"+args[1]+":1433;" +
-                    "databaseName=parserResult;user=snmp;password=145236";
+                    "databaseName=parserResult;user=snmp;password=password";
             System.out.printf("fileSourceXLSX=[%s]\n",fileSourceXLSX);
             System.out.printf("connectionUrl=[%s]\n",connectionUrl);
         }
